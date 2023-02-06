@@ -1,11 +1,11 @@
 @charset "UTF-8";
 @font-face {
   font-family: Roboto-300;
-  src: url("../assets/fonts/Roboto/Roboto-Regular.ttf");
+  src: url("../../assets/fonts/Roboto/Roboto-Regular.ttf");
 }
 @font-face {
   font-family: Roboto-bold;
-  src: url("../assets/fonts/Roboto/Roboto-Bold.ttf");
+  src: url("../../assets/fonts/Roboto/Roboto-Bold.ttf");
 }
 /*------------------------------------------------------------
     Reset
@@ -2230,7 +2230,11 @@ other
   font-weight: 400;
 }
 .c-finace .c-fincace__itemcenter {
-  background: -webkit-radial-gradient(circle closest-side, #000 50%, transparent);
+  background: -webkit-radial-gradient(
+    circle closest-side,
+    #000 50%,
+    transparent
+  );
   background: radial-gradient(circle closest-side, #000 50%, transparent);
   background-position: bottom;
   background-size: 30px 5px;
@@ -2621,7 +2625,7 @@ other
   width: 8px;
   height: 16px;
   position: absolute;
-  background-image: url(../assets/img/web/right-arrow.png);
+  background-image: url(../img/web/right-arrow.png);
   background-size: 100% 100%;
 }
 @media only screen and (max-width: 991px) {
